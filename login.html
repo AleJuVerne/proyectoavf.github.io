@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="login.css">
+    </head>
+    <body>
+            <div class="contenedor">
+                <header>
+                    <div class="cabecera">
+                        <div class="logo"><img src="./imagenes/logo.jpg"
+                                alt="logo"/></div>
+                        <div class="titulo"><h1>Login</h1></div>
+                        <div class="carrito"><a href="./carrito.html"><img
+                                    src="./imagenes/carrito.png" alt="carrito"></a></div>
+                    </div>
+                </header>
+                <div class="topnav">
+                    <a href="./index.html">Inicio</a>
+                    <a href="./login.html">Login</a>
+                    <a href="./fruteria.html">Fruteria</a>
+                    <a href="./carniceria.html">Carniceria</a>
+                    <a href="./atencion.html">Atención al cliente</a>
+                </div>
+                <div class="main">
+                    <div class="izquierda">
+                        <div class="texto">
+                            <h2>ASDA</h2>
+                            <p>Nuestra pasión:</br>Servirte a ti y a los tuyos.</p>
+                    </div>
+                </div>
+                <div class="derecha">
+                    <form action="./php/login.php" method="post">
+                        <label for="usuario">Usuario</label></br></br>
+                        <input type="text" id="usuario" size="25"/></br>
+                        <label for="contra">Contrase&ntilde;a</label></br></br>
+                        <input type="password" id="contra" size="25"/></br>
+                        <input type="submit" value="Iniciar Sesion" id="ini"/>
+                        <p class="linea"></p>
+                        <p><a href="#">Crear cuenta nueva</a></p>
+                    </form>
+                </div>
+            </div>
+            <footer>
+                <div class="pie">
+                    <div class="telefono"><h3>Contacto</h3><p>Telf: 111 111 111 </br> Email: </br> atencionalcliente@asda.com</p></div>
+                    <div class="marcas"><h3>Algunas de nuestras marcas</h3><p>George Home</br>Leche ASDA</br>Pan Hovis</br>Patatas Alber Barlett</p></div>
+                    <div class="informacion"><h3>Información</h3><p>Esta pagina ha sido realizada como proyecto de navidad para la clase de Lenguaje
+                    de Marcas de primero de DAW.</p></div>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>

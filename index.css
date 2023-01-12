@@ -1,0 +1,152 @@
+@font-face {
+    font-family: PetitFormalScript-regular;
+    src: url(./fuentes/PetitFormalScript-Regular.ttf);
+}
+
+.contenedor {
+    position: relative;
+    width: 90%;
+    height: 1000px;
+    margin: 0 auto;
+    min-width: 1000px;
+}
+
+header {
+    height: 15%;
+}
+
+.cabecera div {
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    width: 10%;
+    margin-left: 20px;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+}
+
+.buscador {
+    position: relative;
+    width: 70%;
+    margin: 0px 30px 0px 30px;
+}
+
+.barra {
+    position: absolute;
+    border: solid rgb(66, 66, 66) 0.5px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(235, 235, 235);
+    border-radius: 20px;
+
+}
+
+.carrito {
+    position: relative;
+    float: right;
+    width: 10%;
+    margin-right: 20px;
+}
+
+.carrito img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+}
+
+.carrito img:hover {
+    border-bottom: solid rgb(1, 221, 255) 4px;
+    transition: 0.3s;
+}
+
+.topnav {
+    position: sticky;
+    top: 0%;
+    margin-left: 7px;
+    width: 98%;
+    padding: 5px;
+    text-align: center;
+    background-color: green;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.topnav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: larger;
+}
+
+.topnav a:hover {
+    background-color: rgb(5, 5, 5);
+    transition: 0.3s;
+}
+
+.main {
+    position: relative;
+    background-image: url(./imagenes/background.jpg);
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.bienvenida {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 100px;
+    color: rgb(255, 246, 234);
+    text-align: center;
+    font-family: PetitFormalScript-regular;
+}
+
+.pie{
+    position: relative;
+    clear: both;
+    background-color: green;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.pie div{
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+}
+.telefono{
+    float: left;
+}
+.marcas{
+    float: right;
+}
+.pie h3{
+    margin-top: 0px;
+}

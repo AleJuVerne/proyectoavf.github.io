@@ -1,0 +1,249 @@
+@font-face {
+    font-family: PetitFormalScript-regular;
+    src: url(./fuentes/PetitFormalScript-Regular.ttf);
+}
+
+.contenedor {
+    width: 90%;
+    margin: 0 auto;
+    height: 1000px;
+    min-width: 1000px;
+}
+
+header {
+    height: 15%;
+    text-align: center;
+}
+
+.titulo {
+    width: 60%;
+}
+
+h1 {
+    color: green;
+    font-size: 40px;
+    font-family: PetitFormalScript-regular;
+}
+
+.cabecera div {
+    display: inline-block;
+    height: 100px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    position: relative;
+    float: left;
+    width: 10%;
+    margin-left: 20px;
+}
+
+.logo img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 200px;
+}
+
+.carrito {
+    position: relative;
+    float: right;
+    width: 10%;
+    margin-right: 20px;
+}
+
+.carrito img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 40px;
+}
+
+.carrito img:hover {
+    border-bottom: solid rgb(1, 221, 255) 4px;
+    transition: 0.3s;
+}
+
+.topnav {
+    position: sticky;
+    top: 0%;
+    margin-left: 7px;
+    width: 98%;
+    padding: 5px;
+    text-align: center;
+    background-color: green;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    z-index: 1;
+    min-width: 1000px;
+}
+
+.topnav a {
+    text-decoration: none;
+    display: inline-block;
+    width: 15%;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 15px;
+    font-size: larger;
+}
+
+.topnav a:hover {
+    background-color: rgb(5, 5, 5);
+    transition: 0.3s;
+}
+
+.main{
+    height: 70%;
+}
+.izquierda{
+    position: relative;
+    border: solid green 2px;
+    border-radius: 20px;
+    height: 40%;
+    width: 20%;;
+    padding: 10px;
+    float: left;
+    top: 2.1%;
+}
+.izquierda h3{
+    color: green;
+}
+.izquierda:hover{
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+.izquierda input{
+    margin: 20px;
+    accent-color: green;
+}
+.izquierda label{
+    color: rgb(58, 58, 58);
+}
+.titulo2{
+    position: relative;
+    top:-5%;
+    text-align: center;
+}
+.derecha{
+    position: relative;
+    height: 90%;
+    width:70%;
+    right: 5%;
+    float: right;
+    min-width: 800px;
+}
+.derecha ul{
+    list-style: none;
+}
+.derecha li{
+    margin-bottom: 20px;
+}
+.derecha .caja:hover{
+    box-shadow: 1px 1px 10px 0px rgba(0,0,0,1);
+    transition: 0.3s;
+}
+.caja{
+    position: relative;
+    border: solid green 2px;
+    border-radius: 20px;
+    height: 130px;
+    width: 90%;
+    text-align: center;
+}
+.caja > .imagenes{
+    position: relative;
+    float: left;
+}
+.caja > .otro{
+    float: right;
+}
+.imagenes{
+    margin: 0px;
+    height: 130px;
+    width: 60%;
+}
+.imagenes>img{
+    float: left;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+.imagenes>h4{
+    float: left;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-size: large;
+    color: green;
+}
+.imagenes>p{
+    float: left;
+    margin-left: 50px;
+    color: grey;
+}
+.otro{
+    margin: 0px;
+    float: right;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+}
+.otro strong{
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
+.otro p{
+    color: gray;
+}
+.otro a{
+    position: relative;
+    top: 5%;
+    text-decoration: none;
+    color: azure;
+    background-color: green;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+}
+.otro a:hover{
+    background-color: black;
+    transition: 0.3s;
+}
+.esquina{
+    height: 50%;
+    width: 100%;
+}
+.boton{
+    height: 50%;
+    width: 100%;
+}
+.pie {
+    position: relative;
+    clear: both;
+    background-color: green;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.pie div {
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    padding: 20px;
+}
+
+.telefono {
+    float: left;
+}
+
+.marcas {
+    float: right;
+}
+
+.pie h3 {
+    margin-top: 0px;
+}
